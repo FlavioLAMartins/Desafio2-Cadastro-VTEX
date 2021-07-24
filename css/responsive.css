@@ -1,0 +1,43 @@
+@media (max-width: 650px) {
+    header {
+        font-size: 12px;
+        align-items: center;
+        justify-content:space-between ;
+
+}
+    
+    footer{
+        font-size: 10px;
+    }
+    .content{
+        font-family: 12px;
+        flex-direction: column;
+        justify-content:center;
+    }
+    
+    
+}
+@media (max-width: 900px)  {
+
+    header{
+        font-size: 8px;
+    }
+    .card-box{
+        padding: 10px 30px;
+        font-size: 10px;
+        margin: 20px;
+        
+    }
+    .button {
+        width: 150px;
+        height: 30px;
+        background: linear-gradient(45deg, #eb2b85, #233c72, #15bd98);
+        border-radius: 3px;
+        border-style: none;
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 17px;
+    }
+
+}
